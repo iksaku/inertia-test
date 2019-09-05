@@ -8,7 +8,12 @@ mix
         resolve: {
             alias: {
                 vue$: 'vue/dist/vue.runtime.esm.js',
-                '@': path.resolve('resources/js'),
-            },
-        },
-    });
+                '@': path.resolve('resources/js')
+            }
+        }
+    })
+    .babelConfig({
+        plugins: ['@babel/plugin-syntax-dynamic-import']
+    })
+    .version()
+    .sourceMaps();

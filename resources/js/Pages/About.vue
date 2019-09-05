@@ -1,7 +1,7 @@
 <template>
     <layout>
-        <h1>Welcome</h1>
-        <p>Welcome to my first Inertia.js app!</p>
+        <p>My name is Jorge...</p>
+        <p>And that's all folks, thanks for your interest.</p>
     </layout>
 </template>
 
@@ -14,3 +14,7 @@
         }
     }
 </script>
+
+<style scoped>
+
+</style>
